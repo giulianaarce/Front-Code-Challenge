@@ -13,7 +13,7 @@ export default class SearchBox extends React.Component {
     handleClick = () =>{
         const SEARCHMOVIE = this.state.movie;
         console.log(SEARCHMOVIE);
-        return this.props.search(SEARCHMOVIE)
+        return this.props.search(SEARCHMOVIE);
     }
     render(){
         return(
@@ -28,9 +28,6 @@ export default class SearchBox extends React.Component {
                     </svg>
                     </button>
                   </div>
-                </div>
-                <div>
-                    
                 </div>
             </div>
         );

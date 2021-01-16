@@ -18,8 +18,7 @@ export default class App extends React.Component{
     .then((res) => { return res.json(); })
     .then((json) =>{ 
       if(json !== undefined){
-      console.log(json.result);
-      this.setState({movies: json.result});
+      this.setState({movies: json});
       console.log(this.state.movies);}
     })
   }
